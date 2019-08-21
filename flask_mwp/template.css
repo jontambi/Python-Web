@@ -1,0 +1,52 @@
+body {
+    padding-left: 11em;
+    color: black;
+    background-color: whitesmoke }
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+      font-family: "Gochi Hand";
+      font-size: 40px;
+      font-style: italic;
+      font-variant: small-caps;
+      font-weight: 400;
+      line-height: 49px; }
+  h2 {
+      font-family: "Gochi Hand";
+      font-size: 30px;
+      font-style: italic;
+      font-variant: small-caps;
+      font-weight: 400;
+      line-height: 49px; }
+  p { 
+      font-family: "Gochi Hand";
+      font-size: 25px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px; } 
+  
+  ul.navbar li {
+    background: #63c4be;
+    font-family: "Gochi Hand";
+    font-size: 27px;
+    font-style: normal;
+    font-variant: small-caps;
+    margin: 0.5em 0;
+    padding: 0.3em }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: black }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }

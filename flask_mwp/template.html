@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>Mati's Parent Template</title>
+   <link rel="stylesheet" href="{{ url_for('static',     filename='css/template.css') }}">
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gochi+Hand" />
+ </head>
+ <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Mati's Website</h1>
+        <strong><nav>
+          <ul class="navbar navbar-expand-lg navbar-light bg-light">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+    
+    {% block content %}
+    {% endblock %}
+    
+ </body>
+</html>
